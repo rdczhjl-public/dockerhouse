@@ -1,4 +1,5 @@
-FROM node:0.12.7-wheezy
+#FROM node:0.12.7-wheezy
+FROM ubuntu
 
 MAINTAINER Jialu <zhangjialu@yahoo.com>
 
