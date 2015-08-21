@@ -4,6 +4,7 @@ MAINTAINER Jialu <zhangjialu@yahoo.com>
 
 RUN mkdir /usr/myapp
 
+
 COPY hello.html /usr/myapp
 COPY webserver.js /usr/myapp
 
