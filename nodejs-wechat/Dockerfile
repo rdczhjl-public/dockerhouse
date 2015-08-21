@@ -15,6 +15,7 @@ ADD ./webserver.js /myapp/
 
 WORKDIR /myapp/
 
+EXPOSE 7777
 
 
 
