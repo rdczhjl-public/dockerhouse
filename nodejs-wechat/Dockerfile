@@ -1,8 +1,8 @@
-#FROM node:0.12.7-wheezy
-FROM ubuntu
+FROM node:0.12.7-wheezy
 
 MAINTAINER Jialu <zhangjialu@yahoo.com>
 
+RUN echo "Hello" /a.txt
 RUN mkdir /myapp
 
 
