@@ -3,15 +3,12 @@ FROM node:0.12.7
 MAINTAINER Jialu <zhangjialu@yahoo.com>
 USER root
 
-#RUN npm install express -g
-#RUN npm install expressworks -g
+RUN npm install express -g &&  npm install expressworks -g && npm install xml
 
 RUN mkdir /myapp
 
-ADD ./hello.html /myapp/
-ADD ./webserver.js /myapp/
-
-
+ADD ./*.html /myapp/
+ADD ./*.js /myapp/
 
 WORKDIR /myapp/
 
