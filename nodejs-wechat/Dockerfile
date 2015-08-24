@@ -3,7 +3,8 @@ FROM node:0.12.7
 MAINTAINER Jialu <zhangjialu@yahoo.com>
 USER root
 
-RUN npm install express -g &&  npm install expressworks -g && npm install xml
+RUN npm install express -g &&  npm install expressworks -g 
+RUN npm install xml -g
 
 RUN mkdir /myapp
 
