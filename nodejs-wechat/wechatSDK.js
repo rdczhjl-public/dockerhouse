@@ -23,7 +23,7 @@ exports.process = function (req, res, handler, filter) {
 		'Content-Type' : 'text/plain'
 	});
 	if (path.indexOf(filter) != 0) {
-		res.end(path);
+		res.end("default answer "+path);
 		return;
 	}
 
