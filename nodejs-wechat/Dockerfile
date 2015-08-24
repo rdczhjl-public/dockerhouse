@@ -11,7 +11,8 @@ ADD ./*.html /myapp/
 ADD ./*.js /myapp/
 
 WORKDIR /myapp/
-#EXPOSE 7777 3000
+EXPOSE 7777
+
 
 
 
