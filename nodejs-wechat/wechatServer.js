@@ -8,7 +8,7 @@ var http = require('http');
 var wechat = require('./wechatSDK');
 http.createServer(function (req, res) {
     wechat.process(req, res);
-}).listen(3000);
+}).listen(7777);
  
 /*
 实现自定义消息处理器
