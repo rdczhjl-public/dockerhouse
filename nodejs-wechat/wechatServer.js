@@ -7,6 +7,7 @@ var http = require('http');
  
 var wechat = require('./wechatSDK');
 http.createServer(function (req, res) {
+	console.log("wechat server is started ...");
     wechat.process(req, res);
 }).listen(7777);
  
