@@ -5,6 +5,7 @@ USER root
 
 RUN npm install express -g &&  npm install expressworks -g 
 RUN npm install xml -g
+RUN npm install xmlreader -g
 
 RUN mkdir /myapp
 
